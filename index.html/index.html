@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Weahter App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="app-content">
+
+            <div class="search">
+                <form>
+                    <input type="text" class="search-bar" placeholder="mumbai">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+
+            <div class="weather">
+
+                <div class="weather-img">
+                    <img src="assets/clear.png" alt="Weather">
+                </div>
+
+                <div class="weather-content">
+
+                    <div class="tempreture">
+                        <h1 class="temp">22°C</h1>
+                        <h2 class="city">Bengaluru</h2>
+                    </div>
+
+                    <div class="humidity-wind">
+
+                        <div class="humidity-content">
+                            <div class="img-box2">
+                                <img src="assets/humidity.png" alt="Humidity">
+                            </div>
+
+                            <div class="humidity-inner">
+                                <h3 class="humidity">53%</h3>
+                                <h4 class="humidity-name">Humidity</h4>
+                            </div>
+
+                        </div>
+
+                        <div class="wind-content">
+                            <div class="img-box2">
+                                <img src="assets/wind.png" alt="Wind">
+                            </div>
+
+                            <div class="wind-inner">
+                                <h3 class="wind">5.66 km/h</h3>
+                                <h4 class="wind-name">Wind Speed</h4>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
